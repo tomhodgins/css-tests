@@ -1,0 +1,15 @@
+@namespace 'default';
+@namespace custom 'custom';
+@namespace html 'http://www.w3.org/1999/xhtml';
+|a {
+  color: lime;
+}
+*|a {
+  border: 1px solid currentColor;
+}
+custom|* {
+  color: hotpink;
+}
+html|a {
+  color: cyan;
+}

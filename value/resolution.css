@@ -1,0 +1,15 @@
+@media (min-resolution: 100dppx) {
+  dppx {
+    color: lime;
+  }
+}
+@media (min-resolution: 100dpi) {
+  dpi {
+    color: lime;
+  }
+}
+@media (min-resolution: 100dpcm) {
+  dpcm {
+    color: lime;
+  }
+}

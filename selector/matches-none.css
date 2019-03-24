@@ -1,0 +1,9 @@
+:not(a) {
+  color: lime;
+}
+:not(a):not(b) {
+  color: hotpink;
+}
+:not(a:not(b)) {
+  color: cyan;
+}

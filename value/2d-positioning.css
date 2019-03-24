@@ -1,0 +1,7 @@
+position {
+  background-position: center;
+  background-position: left bottom;
+  background-position: right 0;
+  background-position: 100% top;
+  background-position: left 50px top 50%;
+}

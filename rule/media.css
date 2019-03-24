@@ -1,0 +1,165 @@
+@media all {
+  a {
+    color: lime;
+  }
+}
+@media print {
+  a {
+    color: lime;
+  }
+}
+@media screen {
+  a {
+    color: lime;
+  }
+}
+@media speech {
+  a {
+    color: lime;
+  }
+}
+@media (min-width: 500px) {
+  a {
+    color: lime;
+  }
+}
+@media (max-width: 500px) {
+  a {
+    color: lime;
+  }
+}
+@media (min-height: 500px) {
+  a {
+    color: lime;
+  }
+}
+@media (max-height: 500px) {
+  a {
+    color: lime;
+  }
+}
+@media (min-aspect-ratio: 1) {
+  a {
+    color: lime;
+  }
+}
+@media (max-aspect-ratio: 1) {
+  a {
+    color: lime;
+  }
+}
+@media (orientation: portrait) {
+  a {
+    color: lime;
+  }
+}
+@media (orientation: landscape) {
+  a {
+    color: lime;
+  }
+}
+@media (min-resolution: 300dpi) {
+  a {
+    color: lime;
+  }
+}
+@media (max-resolution: 300dpi) {
+  a {
+    color: lime;
+  }
+}
+@media (scan: interlace) {
+  a {
+    color: lime;
+  }
+}
+@media (grid) {
+  a {
+    color: lime;
+  }
+}
+@media (update) {
+  a {
+    color: lime;
+  }
+}
+@media (overflow-block: scroll) {
+  a {
+    color: lime;
+  }
+}
+@media (overflow-inline: scroll) {
+  a {
+    color: lime;
+  }
+}
+@media (color) {
+  a {
+    color: lime;
+  }
+}
+@media (min-color: 1) {
+  a {
+    color: lime;
+  }
+}
+@media (color >= 8) {
+  a {
+    color: lime;
+  }
+}
+@media (color-index) {
+  a {
+    color: lime;
+  }
+}
+@media (color-index >= 1) {
+  a {
+    color: lime;
+  }
+}
+@media (monochrome >= 2) {
+  a {
+    color: lime;
+  }
+}
+@media (color-gamut: srgb) {
+  a {
+    color: lime;
+  }
+}
+@media (hover: none) {
+  a {
+    color: lime;
+  }
+}
+@media (any-hover: none) {
+  a {
+    color: lime;
+  }
+}
+@media (pointer: none) {
+  a {
+    color: lime;
+  }
+}
+@media (any-pointer: none) {
+  a {
+    color: lime;
+  }
+}
+@media (min-width: 1px) and (min-height: 1) {
+  a {
+    color: lime;
+  }
+}
+@media (min-width: 1px) {
+  a {
+    color: lime;
+  }
+  @media (min-height: 1px) {
+    b {
+      color: hotpink;
+    }
+  }
+}

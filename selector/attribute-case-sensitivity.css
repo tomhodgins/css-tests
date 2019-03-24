@@ -1,0 +1,9 @@
+[attribute="Sensitive"] {
+  color: lime;
+}
+[attribute="Sensitive" s] {
+  color: lime;
+}
+[attribute="iNsEnSiTiVe" i] {
+  color: lime;
+}

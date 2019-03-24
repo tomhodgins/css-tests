@@ -1,0 +1,57 @@
+:before {
+  content: 'single colon';
+}
+::before {
+  content: 'double colon';
+}
+:after {
+  content: 'single colon';
+}
+::after {
+  content: 'double colon';
+}
+:first-letter {
+  content: 'single colon';
+}
+::first-letter {
+  content: 'double colon';
+}
+:first-line {
+  content: 'single colon';
+}
+::first-line {
+  content: 'double colon';
+}
+::placeholder {
+  color: lime;
+}
+::selection {
+  color: white;
+  background: lime;
+}
+::-moz-selection {
+  color: white;
+  background: lime;
+}
+::-webkit-selection {
+  color: white;
+  background: lime;
+}
+::slotted(a) {
+  color: lime;
+}
+::cue {
+  color: lime;
+}
+::backdrop {
+  background: black;
+}
+::marker {
+  color: lime;
+}
+::grammar-error {
+  border-bottom-color: yellow;
+}
+::spelling-error {
+  border-bottom-color: red;
+}

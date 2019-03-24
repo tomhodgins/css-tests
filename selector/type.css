@@ -1,0 +1,18 @@
+type {
+  color: lime;
+}
+type.class {
+  color: hotpink;
+}
+type#id {
+  color: cyan;
+}
+type[attribute] {
+  color: orange;
+}
+type:hover {
+  color: indigo;
+}
+type::before {
+  color: yellow;
+}

@@ -1,0 +1,9 @@
+toggle {
+  color: toggle(lime, hotpink);
+}
+attr::before {
+  content: attr(b);
+}
+attr::before {
+  content: attr(c string, 'default');
+}

@@ -1,0 +1,949 @@
+/*
+  CSS Test Bundle
+  Generated Saturday March 23 2019 09:51pm
+*/
+
+/* charset */
+@charset "utf-8";
+
+/* counter-style */
+@counter-style demo {
+  system: fixed;
+  symbols: 🌮 🌯;
+  suffix: " ";
+}
+
+/* document */
+@document url("https://custom.domain/") {
+  a {
+    color: lime;
+  }
+}
+
+/* font-face */
+@font-face {
+  font-family: "Custom";
+  src: url("path/to/custom.woff2") format("woff2");
+}
+
+/* font-features-value */
+@font-feature-values Example Sans{
+  @swash {
+    delicate: 1;
+  }
+}
+
+/* import */
+@import "quoted.css";
+@import url(url-unquoted.css);
+@import url(quoted.css);
+
+/* keyframes */
+@keyframes demo {
+  from {
+    color: lime;
+  }
+  50% {
+    color: hotpink;
+  }
+  to {
+    color: cyan;
+  }
+}
+
+/* media */
+@media all {
+  a {
+    color: lime;
+  }
+}
+@media print {
+  a {
+    color: lime;
+  }
+}
+@media screen {
+  a {
+    color: lime;
+  }
+}
+@media speech {
+  a {
+    color: lime;
+  }
+}
+@media (min-width: 500px) {
+  a {
+    color: lime;
+  }
+}
+@media (max-width: 500px) {
+  a {
+    color: lime;
+  }
+}
+@media (min-height: 500px) {
+  a {
+    color: lime;
+  }
+}
+@media (max-height: 500px) {
+  a {
+    color: lime;
+  }
+}
+@media (min-aspect-ratio: 1) {
+  a {
+    color: lime;
+  }
+}
+@media (max-aspect-ratio: 1) {
+  a {
+    color: lime;
+  }
+}
+@media (orientation: portrait) {
+  a {
+    color: lime;
+  }
+}
+@media (orientation: landscape) {
+  a {
+    color: lime;
+  }
+}
+@media (min-resolution: 300dpi) {
+  a {
+    color: lime;
+  }
+}
+@media (max-resolution: 300dpi) {
+  a {
+    color: lime;
+  }
+}
+@media (scan: interlace) {
+  a {
+    color: lime;
+  }
+}
+@media (grid) {
+  a {
+    color: lime;
+  }
+}
+@media (update) {
+  a {
+    color: lime;
+  }
+}
+@media (overflow-block: scroll) {
+  a {
+    color: lime;
+  }
+}
+@media (overflow-inline: scroll) {
+  a {
+    color: lime;
+  }
+}
+@media (color) {
+  a {
+    color: lime;
+  }
+}
+@media (min-color: 1) {
+  a {
+    color: lime;
+  }
+}
+@media (color >= 8) {
+  a {
+    color: lime;
+  }
+}
+@media (color-index) {
+  a {
+    color: lime;
+  }
+}
+@media (color-index >= 1) {
+  a {
+    color: lime;
+  }
+}
+@media (monochrome >= 2) {
+  a {
+    color: lime;
+  }
+}
+@media (color-gamut: srgb) {
+  a {
+    color: lime;
+  }
+}
+@media (hover: none) {
+  a {
+    color: lime;
+  }
+}
+@media (any-hover: none) {
+  a {
+    color: lime;
+  }
+}
+@media (pointer: none) {
+  a {
+    color: lime;
+  }
+}
+@media (any-pointer: none) {
+  a {
+    color: lime;
+  }
+}
+@media (min-width: 1px) and (min-height: 1) {
+  a {
+    color: lime;
+  }
+}
+@media (min-width: 1px) {
+  a {
+    color: lime;
+  }
+  @media (min-height: 1px) {
+    b {
+      color: hotpink;
+    }
+  }
+}
+
+/* namespace */
+@namespace 'custom';
+@namespace url(http://www.w3.org/1999/xhtml);
+@namespace svg url(http://www.w3.org/2000/svg);
+@namespace html 'http://www.w3.org/1999/xhtml';
+
+/* page */
+@page {
+  margin: 1in;
+}
+
+/* style */
+a {
+  color: lime;
+}
+
+/* supports */
+@supports (display: inline) {
+  a {
+    color: lime;
+  }
+}
+@supports --general-enclosed() {
+  a {
+    color: lime;
+  }
+}
+@supports (--general-enclosed()) {
+  a {
+    color: lime;
+  }
+}
+@supports --general-enclosed({"custom": 123}) {
+  a {
+    color: lime;
+  }
+}
+@supports (--general-enclosed({"custom": 123})) {
+  a {
+    color: lime;
+  }
+}
+
+/* viewport */
+@viewport {
+  width: device-width;
+}
+
+/* attribute-case-sensitivity */
+[attribute="Sensitive"] {
+  color: lime;
+}
+[attribute="Sensitive" s] {
+  color: lime;
+}
+[attribute="iNsEnSiTiVe" i] {
+  color: lime;
+}
+
+/* attribute-dash-separated */
+[attribute|="dash"] {
+  color: lime;
+}
+
+/* attribute-presence */
+[attribute] {
+  color: lime;
+}
+[--custom] {
+  color: hotpink;
+}
+
+/* attribute-string-begins-with */
+[attribute^="begins with"] {
+  color: lime;
+}
+
+/* attribute-string-contains */
+[attribute*="contains"] {
+  color: lime;
+}
+
+/* attribute-string-ends-with */
+[attribute$="ends with"] {
+  color: lime;
+}
+
+/* attribute-string-match */
+[attribute="match"] {
+  color: lime;
+}
+[--custom='{"number": 123, "bool": true}'] {
+  color: hotpink;
+}
+
+/* attribute-whitespace-separated */
+[attribute~="whitespace"] {
+  color: lime;
+}
+
+/* case-sensitivity */
+demo {
+  color: lime;
+}
+DEMO {
+  color: lime;
+}
+DeMo {
+  color: lime;
+}
+
+/* character-escapes */
+\61 /* a */ {
+  color: lime;
+}
+
+/* child-combinator */
+a > b {
+  color: lime;
+}
+a > b > c > d {
+  color: hotpink;
+}
+
+/* class */
+.class {
+  color: lime;
+}
+type.class {
+  color: hotpink;
+}
+.one.two {
+  color: cyan;
+}
+
+/* descendant-combinator */
+a b {
+  color: lime;
+}
+a b c d {
+  color: hotpink;
+}
+
+/* direction */
+:dir(ltr) {
+  color: lime;
+}
+
+/* grid-structural */
+col || td {
+  color: lime;
+}
+:nth-col(2n+3) {
+  color: hotpink;
+}
+:nth-last-col(2n+3) {
+  color: cyan;
+}
+
+/* id */
+#id {
+  color: lime;
+}
+type#id {
+  color: hotpink;
+}
+#id.class {
+  color: cyan;
+}
+
+/* input-control-states */
+:enabled {
+  color: lime;
+}
+:disabled {
+  color: lime;
+}
+:read-only {
+  color: lime;
+}
+:read-write {
+  color: lime;
+}
+:placeholder-shown {
+  color: lime;
+}
+:default {
+  color: lime;
+}
+:checked {
+  color: lime;
+}
+:indeterminate {
+  color: lime;
+}
+:blank {
+  color: lime;
+}
+:valid {
+  color: lime;
+}
+:invalid {
+  color: lime;
+}
+:in-range {
+  color: lime;
+}
+:out-of-range {
+  color: lime;
+}
+:required {
+  color: lime;
+}
+:optional {
+  color: lime;
+}
+:user-invalid {
+  color: lime;
+}
+
+/* language */
+:lang(fr) {
+  color: lime;
+}
+
+/* location */
+:any-link {
+  color: lime;
+}
+:link {
+  color: lime;
+}
+:visited {
+  color: lime;
+}
+:local-link {
+  color: lime;
+}
+:target {
+  color: lime;
+}
+:target-within {
+  color: lime;
+}
+:scope {
+  color: lime;
+}
+
+/* matches-any */
+:is(a) {
+  color: lime;
+}
+:is(a):is(b) {
+  color: hotpink;
+}
+:is(a:is(b)) {
+  color: hotpink;
+}
+
+/* matches-none */
+:not(a) {
+  color: lime;
+}
+:not(a):not(b) {
+  color: hotpink;
+}
+:not(a:not(b)) {
+  color: cyan;
+}
+
+/* namespace */
+@namespace 'default';
+@namespace custom 'custom';
+@namespace html 'http://www.w3.org/1999/xhtml';
+|a {
+  color: lime;
+}
+*|a {
+  border: 1px solid currentColor;
+}
+custom|* {
+  color: hotpink;
+}
+html|a {
+  color: cyan;
+}
+
+/* next-sibling-combinator */
+a + b {
+  color: lime;
+}
+a + b + c + d {
+  color: hotpink;
+}
+
+/* pseudo-elements */
+:before {
+  content: 'single colon';
+}
+::before {
+  content: 'double colon';
+}
+:after {
+  content: 'single colon';
+}
+::after {
+  content: 'double colon';
+}
+:first-letter {
+  content: 'single colon';
+}
+::first-letter {
+  content: 'double colon';
+}
+:first-line {
+  content: 'single colon';
+}
+::first-line {
+  content: 'double colon';
+}
+::placeholder {
+  color: lime;
+}
+::selection {
+  color: white;
+  background: lime;
+}
+::-moz-selection {
+  color: white;
+  background: lime;
+}
+::-webkit-selection {
+  color: white;
+  background: lime;
+}
+::slotted(a) {
+  color: lime;
+}
+::cue {
+  color: lime;
+}
+::backdrop {
+  background: black;
+}
+::marker {
+  color: lime;
+}
+::grammar-error {
+  border-bottom-color: yellow;
+}
+::spelling-error {
+  border-bottom-color: red;
+}
+
+/* relational-has */
+:has(a) {
+  color: lime;
+}
+:has(+ a) {
+  color: hotpink;
+}
+:has(a):has(b) {
+  color: cyan;
+}
+:has(a:has(b)) {
+  color: yellow;
+}
+
+/* resource-state */
+:playing {
+  color: lime;
+}
+:paused {
+  color: hotpink;
+}
+
+/* selector-list */
+a, b {
+  color: lime;
+}
+a, b, c, d {
+  color: hotpink;
+}
+
+/* specificity-adjustment */
+a:where(b) {
+  color: lime;
+}
+
+/* subsequent-sibling-combinator */
+a ~ b {
+  color: lime;
+}
+a ~ b ~ c ~ d {
+  color: hotpink;
+}
+
+/* time-dimensional */
+:current {
+  color: lime;
+}
+:current(a) {
+  color: hotpink;
+}
+:past {
+  color: cyan;
+}
+:future {
+  color: yellow;
+}
+
+/* tree-structural */
+:root {
+  color: lime;
+}
+:empty {
+  color: lime;
+}
+:nth-child(2n+3) {
+  color: lime;
+}
+:nth-last-child(2n+3) {
+  color: lime;
+}
+:first-child {
+  color: lime;
+}
+:last-child {
+  color: lime;
+}
+:only-child {
+  color: lime;
+}
+:nth-of-type(2n+3) {
+  color: lime;
+}
+:nth-last-of-type(2n+3) {
+  color: lime;
+}
+:first-of-type {
+  color: lime;
+}
+:last-of-type {
+  color: lime;
+}
+:only-of-type {
+  color: lime;
+}
+
+/* type */
+type {
+  color: lime;
+}
+type.class {
+  color: hotpink;
+}
+type#id {
+  color: cyan;
+}
+type[attribute] {
+  color: orange;
+}
+type:hover {
+  color: indigo;
+}
+type::before {
+  color: yellow;
+}
+
+/* universal */
+* {
+  color: lime;
+}
+*:hover {
+  color: hotpink;
+}
+
+/* user-action */
+:hover {
+  color: lime;
+}
+:active {
+  color: lime;
+}
+:focus {
+  color: lime;
+}
+:focus-visible {
+  color: lime;
+}
+:focus-within {
+  color: lime;
+}
+
+/* stylesheet */
+a {
+  color: lime;
+}
+b {
+  color: hotpink;
+}
+c {
+  color: cyan;
+}
+
+/* 2d-positioning */
+position {
+  background-position: center;
+  background-position: left bottom;
+  background-position: right 0;
+  background-position: 100% top;
+  background-position: left 50px top 50%;
+}
+
+/* absolute-lengths */
+cm {
+  width: 1cm;
+}
+mm {
+  width: 1mm;
+}
+Q {
+  width: 1Q;
+}
+in {
+  width: 1in;
+}
+pt {
+  width: 1pt;
+}
+pc {
+  width: 1pc;
+}
+px {
+  width: 1px;
+}
+
+/* angle */
+deg {
+  transform: rotateZ(90deg);
+}
+rad {
+  transform: rotateZ(100grad);
+}
+grad {
+  transform: rotateZ(.25turn);
+}
+turn {
+  transform: rotateZ(1.57rad);
+}
+
+/* color */
+basic color keywords {
+  color: white;
+}
+short hex {
+  color: #fff;
+}
+long hex {
+  color: #ffffff;
+}
+short hexa {
+  color: #ffff;
+}
+long hexa {
+  color: #ffffffff;
+}
+rgb no commas {
+  color: rgb(255 255 255);
+}
+rgb with commas {
+  color: rgb(255, 255, 255);
+}
+rgb with alpha {
+  color: rgb(255, 255, 255, 1);
+}
+rgba {
+  color: rgba(255, 255, 255, 1);
+}
+transparent {
+  color: transparent;
+}
+hsl {
+  color: hsl(0, 0%, 100%);
+}
+hsla {
+  color: hsla(0, 0%, 100%, 1);
+}
+extended color keywords {
+  color: ghostwhite;
+}
+currentColor {
+  color: currentColor;
+}
+
+/* css-variable */
+css variable values {
+  --empty: ;
+  --number: 1;
+  --unit: 100vw;
+  --function: calc(1 + 1);
+  --variable: var(--unit);
+  --ident: ident;
+  --string: 'single quoted string';
+  --string: "double quoted string";
+  --square-block: [1, 2, 3];
+  --round-block: (1, 2, 3);
+  --bracket-block: {1, 2, 3};
+  --css-style-rule: a { color: lime; };
+  --css-at-rule: @media (min-width: 500px) { a { color: lime; } };
+  --JSON: [1, "2", {"three": 3}, [4]];
+  --javascript: function(rule) { console.log(rule) };
+  --multiline:
+    This
+    spans
+    multiple
+    lines
+  ;
+}
+
+/* duration */
+duration {
+  transition: color 0;
+  transition: color 250ms;
+  transition: color .5s;
+  transition: color 1s;
+}
+
+/* font-relative-lengths */
+em {
+  font-size: 1em;
+}
+ex {
+  font-size: 1ex;
+}
+ch {
+  font-size: 1ch;
+}
+rem {
+  font-size: 1rem;
+}
+
+/* frequency */
+frequency {
+  --hz: 10Hz;
+  --khz: 10kHz;
+}
+
+/* functional */
+toggle {
+  color: toggle(lime, hotpink);
+}
+attr::before {
+  content: attr(b);
+}
+attr::before {
+  content: attr(c string, 'default');
+}
+
+/* image */
+url {
+  background-image: url(b.png);
+}
+gradient {
+  background-image: linear-gradient(red, blue);
+}
+data url {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI+DQo8cG9seWdvbiBvcGFjaXR5PSIwLjciIHBvaW50cz0iMCw0IDE2LDQgOCwxMiIvPg0KPC9zdmc+DQo=');
+}
+
+/* mathematical */
+calc {
+  font-size: calc(10 * 100px);
+}
+min {
+  font-size: min(10px, 100px);
+}
+max {
+  font-size: max(10px, 100px);
+}
+clamp {
+  font-size: clamp(10px, 10vw, 100px);
+}
+
+/* percentage */
+length percentage {
+  width: 100%;
+}
+font percentage {
+  font-size: 100%;
+}
+
+/* resolution */
+@media (min-resolution: 100dppx) {
+  dppx {
+    color: lime;
+  }
+}
+@media (min-resolution: 100dpi) {
+  dpi {
+    color: lime;
+  }
+}
+@media (min-resolution: 100dpcm) {
+  dpcm {
+    color: lime;
+  }
+}
+
+/* viewport-percentage-length */
+vw {
+  width: 100vw;
+}
+vh {
+  width: 100vh;
+}
+vi {
+  width: 100vi;
+}
+vb {
+  width: 100vb;
+}
+vmin {
+  width: 100vmin;
+}
+vmax {
+  width: 100vmax;
+}
+

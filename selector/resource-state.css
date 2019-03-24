@@ -1,0 +1,6 @@
+:playing {
+  color: lime;
+}
+:paused {
+  color: hotpink;
+}

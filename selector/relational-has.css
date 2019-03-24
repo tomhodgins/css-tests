@@ -1,0 +1,12 @@
+:has(a) {
+  color: lime;
+}
+:has(+ a) {
+  color: hotpink;
+}
+:has(a):has(b) {
+  color: cyan;
+}
+:has(a:has(b)) {
+  color: yellow;
+}

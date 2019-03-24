@@ -1,0 +1,36 @@
+:root {
+  color: lime;
+}
+:empty {
+  color: lime;
+}
+:nth-child(2n+3) {
+  color: lime;
+}
+:nth-last-child(2n+3) {
+  color: lime;
+}
+:first-child {
+  color: lime;
+}
+:last-child {
+  color: lime;
+}
+:only-child {
+  color: lime;
+}
+:nth-of-type(2n+3) {
+  color: lime;
+}
+:nth-last-of-type(2n+3) {
+  color: lime;
+}
+:first-of-type {
+  color: lime;
+}
+:last-of-type {
+  color: lime;
+}
+:only-of-type {
+  color: lime;
+}

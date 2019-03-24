@@ -1,0 +1,6 @@
+duration {
+  transition: color 0;
+  transition: color 250ms;
+  transition: color .5s;
+  transition: color 1s;
+}

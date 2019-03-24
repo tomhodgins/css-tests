@@ -1,0 +1,42 @@
+basic color keywords {
+  color: white;
+}
+short hex {
+  color: #fff;
+}
+long hex {
+  color: #ffffff;
+}
+short hexa {
+  color: #ffff;
+}
+long hexa {
+  color: #ffffffff;
+}
+rgb no commas {
+  color: rgb(255 255 255);
+}
+rgb with commas {
+  color: rgb(255, 255, 255);
+}
+rgb with alpha {
+  color: rgb(255, 255, 255, 1);
+}
+rgba {
+  color: rgba(255, 255, 255, 1);
+}
+transparent {
+  color: transparent;
+}
+hsl {
+  color: hsl(0, 0%, 100%);
+}
+hsla {
+  color: hsla(0, 0%, 100%, 1);
+}
+extended color keywords {
+  color: ghostwhite;
+}
+currentColor {
+  color: currentColor;
+}

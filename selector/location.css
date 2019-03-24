@@ -1,0 +1,21 @@
+:any-link {
+  color: lime;
+}
+:link {
+  color: lime;
+}
+:visited {
+  color: lime;
+}
+:local-link {
+  color: lime;
+}
+:target {
+  color: lime;
+}
+:target-within {
+  color: lime;
+}
+:scope {
+  color: lime;
+}

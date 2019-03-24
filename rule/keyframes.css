@@ -1,0 +1,11 @@
+@keyframes demo {
+  from {
+    color: lime;
+  }
+  50% {
+    color: hotpink;
+  }
+  to {
+    color: cyan;
+  }
+}

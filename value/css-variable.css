@@ -1,0 +1,23 @@
+css variable values {
+  --empty: ;
+  --number: 1;
+  --unit: 100vw;
+  --function: calc(1 + 1);
+  --variable: var(--unit);
+  --ident: ident;
+  --string: 'single quoted string';
+  --string: "double quoted string";
+  --square-block: [1, 2, 3];
+  --round-block: (1, 2, 3);
+  --bracket-block: {1, 2, 3};
+  --css-style-rule: a { color: lime; };
+  --css-at-rule: @media (min-width: 500px) { a { color: lime; } };
+  --JSON: [1, "2", {"three": 3}, [4]];
+  --javascript: function(rule) { console.log(rule) };
+  --multiline:
+    This
+    spans
+    multiple
+    lines
+  ;
+}

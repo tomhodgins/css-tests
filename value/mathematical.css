@@ -1,0 +1,12 @@
+calc {
+  font-size: calc(10 * 100px);
+}
+min {
+  font-size: min(10px, 100px);
+}
+max {
+  font-size: max(10px, 100px);
+}
+clamp {
+  font-size: clamp(10px, 10vw, 100px);
+}

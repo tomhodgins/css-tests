@@ -1,0 +1,9 @@
+:is(a) {
+  color: lime;
+}
+:is(a):is(b) {
+  color: hotpink;
+}
+:is(a:is(b)) {
+  color: hotpink;
+}

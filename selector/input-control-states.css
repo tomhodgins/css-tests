@@ -1,0 +1,48 @@
+:enabled {
+  color: lime;
+}
+:disabled {
+  color: lime;
+}
+:read-only {
+  color: lime;
+}
+:read-write {
+  color: lime;
+}
+:placeholder-shown {
+  color: lime;
+}
+:default {
+  color: lime;
+}
+:checked {
+  color: lime;
+}
+:indeterminate {
+  color: lime;
+}
+:blank {
+  color: lime;
+}
+:valid {
+  color: lime;
+}
+:invalid {
+  color: lime;
+}
+:in-range {
+  color: lime;
+}
+:out-of-range {
+  color: lime;
+}
+:required {
+  color: lime;
+}
+:optional {
+  color: lime;
+}
+:user-invalid {
+  color: lime;
+}

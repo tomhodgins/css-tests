@@ -1,0 +1,5 @@
+@counter-style demo {
+  system: fixed;
+  symbols: 🌮 🌯;
+  suffix: " ";
+}

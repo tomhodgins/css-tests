@@ -1,0 +1,12 @@
+:current {
+  color: lime;
+}
+:current(a) {
+  color: hotpink;
+}
+:past {
+  color: cyan;
+}
+:future {
+  color: yellow;
+}

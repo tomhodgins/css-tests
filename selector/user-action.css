@@ -1,0 +1,15 @@
+:hover {
+  color: lime;
+}
+:active {
+  color: lime;
+}
+:focus {
+  color: lime;
+}
+:focus-visible {
+  color: lime;
+}
+:focus-within {
+  color: lime;
+}

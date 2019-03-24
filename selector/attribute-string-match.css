@@ -1,0 +1,6 @@
+[attribute="match"] {
+  color: lime;
+}
+[--custom='{"number": 123, "bool": true}'] {
+  color: hotpink;
+}

@@ -1,0 +1,12 @@
+deg {
+  transform: rotateZ(90deg);
+}
+rad {
+  transform: rotateZ(100grad);
+}
+grad {
+  transform: rotateZ(.25turn);
+}
+turn {
+  transform: rotateZ(1.57rad);
+}

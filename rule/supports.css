@@ -1,0 +1,25 @@
+@supports (display: inline) {
+  a {
+    color: lime;
+  }
+}
+@supports --general-enclosed() {
+  a {
+    color: lime;
+  }
+}
+@supports (--general-enclosed()) {
+  a {
+    color: lime;
+  }
+}
+@supports --general-enclosed({"custom": 123}) {
+  a {
+    color: lime;
+  }
+}
+@supports (--general-enclosed({"custom": 123})) {
+  a {
+    color: lime;
+  }
+}

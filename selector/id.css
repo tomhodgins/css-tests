@@ -1,0 +1,9 @@
+#id {
+  color: lime;
+}
+type#id {
+  color: hotpink;
+}
+#id.class {
+  color: cyan;
+}
